@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+	<head>
+			<title>Html Lecture</title>
+			<style>
+				table , th , td{
+						border:1px solid black;
+						/*border-collapse: collapse;*/
+				}
+			</style>
+	</head>
+	<body>
+	
+			<table border="1" cellpadding="20" cellspacing="20">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Country</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Harry Depp</td>
+						<td>28</td>
+						<td>Britain</td>
+					</tr>
+					<tr>
+							<td>John Smith</td>
+							<td>35</td>
+							<td>USA</td>
+					</tr>
+					<tr>
+						<td>Ram Krishna</td>
+						<td>19</td>
+						<td>Nepal</td>
+					</tr>
+				</tbody>
+			</table>
+
+			
+
+			<!-- Merged Table  / rowspan / colspan -->
+
+			<table>
+						<tr>
+									<th>Column 1</th>
+									<th>Column 2</th>
+									<th>Column 3</th>
+						</tr>
+						<tr>
+									<td rowspan="2">Row1 cell 1</td>
+									<td>Row1 cell 2</td>
+									<td>Row1 cell 3</td>
+						</tr>
+						<tr>
+									<td>Row2 cell 2</td>
+									<td>Row2 cell 3</td>
+						</tr>
+						<tr>
+									<td colspan="3">Row3 cell 1</td>
+						</tr>
+			</table>
+
+			<!-- Table with colgroup -->
+
+			<table>
+				<colgroup>
+						<col span="1" bgcolor="orange">
+						<col span="1" bgcolor="blue">
+						<col span="1" bgcolor="green">
+				</colgroup>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Country</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Harry Depp</td>
+						<td>28</td>
+						<td>Britain</td>
+					</tr>
+					<tr>
+						<td>Ram Krishna</td>
+						<td>19</td>
+						<td>Nepal</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+			
+		</body>
+</html>
